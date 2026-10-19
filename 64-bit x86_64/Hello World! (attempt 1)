@@ -15,3 +15,5 @@ _start:
   mov rax, 60
   xor rdi, rdi
   syscall
+
+; I just realised, I was following a Linux tutorial... and I run Windows. Now I have to recreate it all but in Windows instead.
