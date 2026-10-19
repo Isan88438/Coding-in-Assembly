@@ -1,1 +1,6 @@
+bits 64
+default rel
 
+extern GetStdHandle
+extern WriteFile
+extern ExitProcess
