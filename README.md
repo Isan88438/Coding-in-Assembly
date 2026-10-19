@@ -1,3 +1,5 @@
 # Coding in Binary
 
-Hello, this is just a personal project where I am just going to do some small projects in binary.
+Hello, this is just a personal repo where I will try to code some stuff in binary.
+
+-# Wish me luck...
