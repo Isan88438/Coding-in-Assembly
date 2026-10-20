@@ -16,5 +16,9 @@ section .text
 global main
 
 main:
-    ; Reserve 32 bytes of "shadow space" required by Windows functions
     sub rsp, 40
+
+mov rcx, -11
+    call GetStdHandle
+    mov rbx, rax
+
