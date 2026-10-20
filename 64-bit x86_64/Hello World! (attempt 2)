@@ -18,7 +18,10 @@ global main
 main:
     sub rsp, 40
 
-mov rcx, -11
+    mov rcx, -11
     call GetStdHandle
     mov rbx, rax
 
+    mov rcx, -11
+    call GetStdHandle
+    move rbx, rax
