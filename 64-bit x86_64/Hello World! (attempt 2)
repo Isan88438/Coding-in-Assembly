@@ -28,3 +28,6 @@ main:
     lea r9, [bytesWritten]
     mov qword [rsp + 32], 0
     call WriteFile
+
+    xor rcx, rcx
+    call ExitProcess
