@@ -11,3 +11,10 @@ section .data
 
 section .bss
     bytesWritten resq 1
+
+section .text
+global main
+
+main:
+    ; Reserve 32 bytes of "shadow space" required by Windows functions
+    sub rsp, 40
