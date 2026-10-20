@@ -22,6 +22,9 @@ main:
     call GetStdHandle
     mov rbx, rax
 
-    mov rcx, -11
-    call GetStdHandle
-    move rbx, rax
+    mov rcx, rbx
+    lea rdx, [msg]
+    mov r8d, len
+    lea r9, [bytesWritten]
+    mov qword [rsp + 32], 0
+    call WriteFile
